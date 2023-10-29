@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0px;
+    background-color: black;
+}
+
+h4{
+    color: #d8d5bf;
+    position: absolute;
+    left: 645px;
+    top: 28px;
+}
+
+.container{
+    height: 600px;
+    width: 350px;
+    background-color: #000000;
+    margin-left: 520px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(222, 222, 239, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(202, 215, 227, 0.35) 0px -2px 6px 0px inset;
+}
+
+#screen{
+    height: 120px;
+    text-align: center;
+    width: 350px;
+    font-size: xx-large;
+    font-weight:bolder;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+      color: rgb(198, 125, 170);
+    cursor:alias
+}
+
+.symbol{
+    position:absolute;
+    left: 545px;
+    margin-top: 50px;
+}
+
+input{
+    height: 60px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: #ce9e9e;
+    border: none;
+    border: #d49999 ridge;
+    margin-top: 5px;
+    box-shadow: rgba(164, 194, 209, 0.805) 0px 2px 4px 0px, rgba(170, 207, 225, 0.92) 0px 2px 16px 0px;
+    font-size: xx-large;
+    font-weight:bolder;
+    cursor: pointer;
+}
+input:active{
+    height: 59px;
+    width: 69px;
+    margin-left: 1px;
+}
+
+.btn-equal{
+    height: 120px;
+    border-radius: 30px;
+    position: absolute;
+    top:263px;
+    left: 230px;
+    background-color: rgb(217, 157, 168);
+    color:rgb(219, 200, 164); 
+}
+.btn-equal:active{
+    height: 119px;
+    width: 68px;
+}
+
+.btn-operator{
+      background-color: rgb(158, 131, 183);
+}
+
+.btn-reset{
+    color: wheat;
+    background-color: rgb(209, 142, 205);
+}
+
+.btn-other{
+    background-color: rgb(122, 142, 173);
+}
+
+.btn-top{
+    color: rgb(185, 208, 165);
+    background-color: #907272;
+    padding: 2px;
+    border: #7a5b5b ridge;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-top:active{
+    padding: 1px;
+    margin: 1px;
+}
+
+.container-btn-top{
+    position: absolute;
+    top: 180px;
+    left: 583px;
+}
+
+/*added class after togglebtn clicked*/
+.cont{
+   background-color: white;
+}
+.scrn{
+    background-color: white;
+}
